@@ -1,0 +1,33 @@
+### Post Employee      
+POST http://localhost:3000/Employee
+Content-Type: application/json
+
+{
+    "fName": "san",
+    "mName": "boy",
+    "lname": "dol",
+    "age": 18,
+    "favorite.pet": "dog",
+    "favorite.car": "lambo",
+    "favorite.food": "chix",
+    "phoneNumber": 111111
+}
+
+
+### Get all employee
+Get http://localhost:3000/employee
+
+### Get employee by id
+Get http://localhost:3000/employee
+
+### Patch employee by id
+Patch http://localhost:3000/employee
+Content-Type: application/json
+
+    {
+        "fName": "cute",
+        "mName": "cutiepie"
+    }
+
+### Delete employee by id
+Delete http://localhost:3000/employee/
